@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #131518;
 }
 
 .attribution { 
@@ -14,15 +14,74 @@ body {
 /* main container styling  */
 
 .main-div {
-    width: 300px;
-    height: 300px;
+    width: 412px;
+    height: 412px;
     border: solid yellow 3px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     margin-top: 30vh;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    border-radius: 32px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
 
+
+.circle-star {
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    background-color: #262E38;
+}
+
+.star-img {
+   position: relative;
+   top: 18px;
+   left: 18px;
+}
+
+.heading-1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.heading-2 {
+
+}
+
+.rating-circles {
+    display: flex;
+
+}
+
+.circle {
+    height: 51px;
+    width: 51px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #262E38;
+}
+
+.circle-number {
+   color: #7C8798;
+   display: flex;
+   justify-content: center;
+}
+
+.submit-btn {
+    width: 80%;
+    height: 45px;
+    background: #FC7614;
+    border-radius: 22.5px;
+    border: none;
+    color: white;
+    letter-spacing: 0.3rem;
+    
 }
