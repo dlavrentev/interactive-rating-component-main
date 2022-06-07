@@ -22,5 +22,7 @@ body {
     align-items: center;
     margin: 0 auto;
     margin-top: 30vh;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    border-radius: 12px;
 
 }
