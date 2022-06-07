@@ -5,7 +5,22 @@ body {
 .attribution { 
     font-size: 11px; text-align: center; 
     color: whitesmoke;
+    padding-top: 100px;
 }
 .attribution a {
      color: hsl(0, 0%, 100%); 
+}
+
+/* main container styling  */
+
+.main-div {
+    width: 300px;
+    height: 300px;
+    border: solid yellow 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30vh;
+
 }
