@@ -85,13 +85,21 @@ body {
     margin-right: 19px;
     border-radius: 50%;
     background-color: #262E38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7C8798;
 }
 
-.circle-number {
-   color: #7C8798;
-   display: flex;
-   justify-content: center;
+.circle:hover {
+    background-color: #7C8798;
+    color: #FFFFFF;
 }
+
+.circle:active {
+    background-color: #FC7614;
+}
+
 
 .submit-btn {
     width: 100%;
@@ -102,4 +110,10 @@ body {
     color: white;
     letter-spacing: 0.3rem;
     margin-top:50px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color:#FC7614;
+    background-color: #FFFFFF;
 }
