@@ -89,15 +89,28 @@ body {
     align-items: center;
     justify-content: center;
     color: #7C8798;
+    cursor: pointer;
 }
+
+.orange {
+    height: 51px;
+    width: 51px;
+    margin-left: 19px;
+    margin-right: 19px;
+    border-radius: 50%;
+    background-color:#FC7614;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7C8798;
+    cursor: pointer;
+}
+
+
 
 .circle:hover {
     background-color: #7C8798;
     color: #FFFFFF;
-}
-
-.circle:active {
-    background-color: #FC7614;
 }
 
 
