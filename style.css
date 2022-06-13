@@ -23,8 +23,18 @@ body {
     padding: 32px 32px 32px 32px;
 }
 
-.sub-div1 {
-
+.main-div2 {
+    width: 412px;
+    height: 412px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px 32px 32px 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sub-div2 {
@@ -129,4 +139,12 @@ body {
 .submit-btn:hover {
     color:#FC7614;
     background-color: #FFFFFF;
+}
+
+
+.stars-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
