@@ -1,3 +1,19 @@
+const submitBtn = document.getElementById('submit-star-btn');
+const card_content_1 = document.querySelector('.div1');
+const card_content_2 = document.querySelector('.div2');
+const score = document.querySelector('.score');
+stars_score = 3;
+
+
+
+function onSubmit() {
+    card_content_1.classList.add('hide');
+    score.textContent = 4;
+    card_content_2.classList.remove('hide');
+}
+
+submitBtn.addEventListener('click', onSubmit);
+
 const btn1 = document.getElementById("btn1");
 const btn2 = document.getElementById("btn2");
 const btn3 = document.getElementById("btn3");

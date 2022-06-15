@@ -15,7 +15,8 @@
 </head>
 <body>
 
-  <div class="main-div" hidden>
+  <div class="main-div">
+    <div class="div1">
     <div class="sub-div1">
     <div class="circle-star"><img src="./images/icon-star.svg" class="star-img"></div>
     <p class="heading-1">How did we do?</p>
@@ -26,29 +27,30 @@
     </div>
     <div class="sub-div2">
     
-    <div class="rating-circles">
+    <form class="rating-circles" action="">
      
       <div class="circle" id="btn1" onclick="btnOne()" >1</div>
       <div class="circle" id="btn2" onclick="btnTwo()">2</div>
       <div class="circle" id="btn3" onclick="btnThree()">3</div>
       <div class="circle" id="btn4" onclick="btnFour()">4</div>
       <div class="circle" id="btn5" onclick="btnFive()">5</div>
-     
-    </div>
-    <button class="submit-btn">SUBMIT</button>
+    </form>
+    <button class="submit-btn" id="submit-star-btn">SUBMIT</button>
     </div>
   </div>
-
-  <div class="main-div2">
+  <div class="div2 hide">
     <img src="/images/illustration-thank-you.svg" alt="thank-you-illustration">
     <div class="stars-selection">
-      <span class="selected">You selected 4 out of 5</span>
+      <div class="selected">You selected<span class="score">4</span>out of 5</div>
       <h1>Thank you!</h1>
-      <p>
+      <p class="appreciate">
         We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
       </p>
     </div>
   </div>
+  </div>
+
+  
 
   
   <div class="attribution">
